@@ -48,7 +48,7 @@ The notebook contains three main experiments with different configurations of **
 - Performed predictions on random images for qualitative analysis.
 
 ### 4. **Conclusions**
-- The EfficientNetB4 model outperformed both the baseline and the earlier EfficientNetB0 configurations.
+- The EfficientNetB4 model outperformed both the baseline and the earlier EfficientNetB0 configurations. Overall I am quite happy with the results as the highest reported accuracy using EfficientNet models was 93% (using EfficientNet-B7) as reported on paperswithcode.com.
 - **Key takeaways**:
   - Full unfreezing was more effective than incremental unfreezing for this dataset.
   - Choosing a larger, more powerful architecture significantly improved performance.
@@ -56,7 +56,7 @@ The notebook contains three main experiments with different configurations of **
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/hudmarr/CNN-Food101-TL.git
    ```
 2. Install the required dependencies:
    ```bash
@@ -71,8 +71,3 @@ The notebook contains three main experiments with different configurations of **
 | 2          | EfficientNetB0  | 81.11%             | ~124 minutes  |
 | 3          | EfficientNetB4  | 88.55%             | ~4 hours      |
 
-## Additional Notes
-- This notebook is GPU-optimized and tested on a T4 graphics card.
-- Future work could include exploring other architectures or advanced optimization techniques to further improve results.
-
-Feel free to contribute or fork the repository to test your own ideas!
